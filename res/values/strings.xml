@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">checkbox_event</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="Dominos">Dominos</string>
+    <string name="Quantity">Quantity</string>
+    <string name="Pizza">Pizza</string>
+    <string name="Burger">Burger</string>
+    <string name="Order">Order</string>
+    <string name="one">(100)</string>
+    <string name="fifty">(50)</string>
+    <string name="male">male</string>
+    <string name="female">female</string>
+    <string name="sandwich">sandwich</string>
+    <string name="SIXTY">(60)</string>
+    <string name="zero">0</string>
+    <string name="enter">Enter</string>
+    <string name="refresh">Refresh</string>
+    <string name="dominos">WELCOME TO DOMINOS</string>
+    <string name="nuggets">Nuggets</string>
+    <string name="items">Items</string>
+    <string name="Price">Price</string>
+    <string name="hun">100</string>
+    <string name="se">75</string>
+    <string name="sev">70</string>
+    <string name="onf">150</string>
+    <string name="smoothie">Smoothie</string>
+    <string name="ninety">90</string>
+    <string name="amt">Amount</string>
+
+</resources>

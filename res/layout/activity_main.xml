@@ -1,0 +1,245 @@
+<RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android1="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@drawable/tea"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android1:gravity="center"
+    tools:context=".MainActivity"
+     >
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/checkBox1"
+        android1:layout_alignParentRight="true"
+        android:ems="10"
+        android:inputType="number"
+        android1:gravity="center_vertical|center_horizontal" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/checkBox2"
+        android:layout_alignParentRight="true"
+        android:ems="10"
+        android:inputType="number"
+        />
+
+    <EditText
+        android1:id="@+id/editText3"
+        android1:layout_width="50dp"
+        android1:layout_height="wrap_content"
+        android1:layout_alignBottom="@+id/checkBox3"
+        android1:layout_alignParentRight="true"
+        android1:ems="10"
+        android1:inputType="number"
+         />
+
+    <TextView
+        android1:id="@+id/textView2"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:layout_alignRight="@+id/editText1"
+        android1:layout_below="@+id/textView1"
+        android1:layout_marginTop="14dp"
+        android1:text="@string/Quantity"
+        android1:textColor="#191970" />
+
+    <TextView
+        android1:id="@+id/textView1"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:layout_alignParentTop="true"
+        android1:layout_centerHorizontal="true"
+        android1:text="@string/dominos"
+        android1:textColor="#191970" />
+
+    <CheckBox
+        android1:id="@+id/checkBox3"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:layout_alignLeft="@+id/checkBox2"
+        android1:layout_below="@+id/checkBox2"
+        android1:layout_marginTop="16dp"
+        android1:text="@string/sandwich" />
+
+    <CheckBox
+        android1:id="@+id/checkBox1"
+        android1:layout_width="80dp"
+        android1:layout_height="wrap_content"
+        android1:layout_alignRight="@+id/button1"
+        android1:layout_below="@+id/textView3"
+        android1:layout_marginRight="20dp"
+        android1:layout_marginTop="38dp"
+        android1:text="@string/Pizza" />
+
+    <CheckBox
+        android1:id="@+id/checkBox2"
+        android1:layout_width="90dp"
+        android1:layout_height="wrap_content"
+        android1:layout_alignLeft="@+id/checkBox1"
+        android1:layout_below="@+id/editText1"
+        android1:layout_marginTop="16dp"
+        android1:text="@string/Burger" />
+
+    <TextView
+        android1:id="@+id/textView3"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:layout_alignBaseline="@+id/textView4"
+        android1:layout_alignBottom="@+id/textView4"
+        android1:layout_alignLeft="@+id/button1"
+        android1:text="@string/items" />
+
+    <CheckBox
+        android1:id="@+id/checkBox4"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:layout_alignLeft="@+id/checkBox3"
+        android1:layout_below="@+id/checkBox3"
+        android1:layout_marginTop="14dp"
+        android1:text="@string/nuggets" />
+
+    <TextView
+        android1:id="@+id/textView5"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:layout_alignBaseline="@+id/editText1"
+        android1:layout_alignBottom="@+id/editText1"
+        android1:layout_centerHorizontal="true"
+        android1:text="@string/hun"
+        android1:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android1:id="@+id/textView4"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:layout_alignBaseline="@+id/textView2"
+        android1:layout_alignBottom="@+id/textView2"
+        android1:layout_centerHorizontal="true"
+        android1:text="@string/Price" />
+
+    <TextView
+        android1:id="@+id/textView6"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:layout_alignBaseline="@+id/checkBox2"
+        android1:layout_alignBottom="@+id/checkBox2"
+        android1:layout_centerHorizontal="true"
+        android1:text="@string/se"
+        android1:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android1:id="@+id/textView8"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:layout_alignBaseline="@+id/checkBox4"
+        android1:layout_alignBottom="@+id/checkBox4"
+        android1:layout_alignRight="@+id/textView1"
+        android1:text="@string/onf"
+        android1:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android1:id="@+id/textView7"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:layout_alignBaseline="@+id/checkBox3"
+        android1:layout_alignBottom="@+id/checkBox3"
+        android1:layout_alignRight="@+id/textView1"
+        android1:text="@string/sev"
+        android1:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <EditText
+        android1:id="@+id/editText4"
+        android1:layout_width="50dp"
+        android1:layout_height="wrap_content"
+        android1:layout_alignBottom="@+id/checkBox4"
+        android1:layout_alignParentRight="true"
+        android1:ems="10"
+        android1:inputType="number" />
+
+    <CheckBox
+        android1:id="@+id/checkBox5"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:layout_alignLeft="@+id/checkBox4"
+        android1:layout_below="@+id/checkBox4"
+        android1:layout_marginTop="20dp"
+        android1:text="@string/smoothie" />
+
+    <TextView
+        android1:id="@+id/textView9"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:layout_alignBaseline="@+id/checkBox5"
+        android1:layout_alignBottom="@+id/checkBox5"
+        android1:layout_alignLeft="@+id/textView8"
+        android1:text="@string/ninety"
+        android1:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <EditText
+        android1:id="@+id/editText5"
+        android1:layout_width="50dp"
+        android1:layout_height="wrap_content"
+        android1:layout_alignBaseline="@+id/textView9"
+        android1:layout_alignBottom="@+id/textView9"
+        android1:layout_alignParentRight="true"
+        android1:ems="10"
+        android1:inputType="number" />
+
+    <Button
+        android1:id="@+id/button2"
+        android1:layout_width="110dp"
+        android1:layout_height="wrap_content"
+        android1:layout_alignBaseline="@+id/button1"
+        android1:layout_alignBottom="@+id/button1"
+        android1:layout_alignRight="@+id/editText5"
+        android1:maxLines="@android:integer/config_shortAnimTime"
+        android1:maxWidth="@android:dimen/app_icon_size"
+        android1:text="@string/refresh"
+        android1:textAlignment="center"
+        android1:textSize="@dimen/s"
+        android1:textStyle="normal"
+        android1:typeface="sans" />
+
+    <Button
+        android1:id="@+id/button1"
+        android1:layout_width="80dp"
+        android1:layout_height="wrap_content"
+        android1:layout_alignParentBottom="true"
+        android1:layout_alignParentLeft="true"
+        android1:layout_marginLeft="31dp"
+        android1:text="@string/Order"
+        android1:textAlignment="gravity"
+        android1:textSize="@dimen/s"
+        android1:textStyle="normal"
+        android1:typeface="sans" />
+
+    <Button
+        android1:id="@+id/button3"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:layout_alignRight="@+id/checkBox2"
+        android1:layout_below="@+id/editText5"
+        android1:text="@string/amt" />
+
+    <EditText
+        android1:id="@+id/editText6"
+        android1:layout_width="60dp"
+        android1:layout_height="wrap_content"
+        android1:layout_alignBottom="@+id/button3"
+        android1:layout_centerHorizontal="true"
+        android1:ems="10"
+        android1:inputType="number" />
+
+</RelativeLayout>
